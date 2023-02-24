@@ -385,7 +385,7 @@ UDFMountVolume(
                 }
             } else {
                 if(!UDFGetRegParameter(NULL, REG_MOUNT_ON_HDD_NAME, FALSE)) {
-                    WrongMedia = TRUE;
+                    WrongMedia = FALSE;
                 }
             }
             FsDeviceType = FILE_DEVICE_DISK_FILE_SYSTEM;
